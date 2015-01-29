@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F68C30411A7A2C4A004B62C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C30401A7A2C4A004B62C9 /* main.m */; };
+		F68C30441A7A2C4A004B62C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C30431A7A2C4A004B62C9 /* AppDelegate.m */; };
+		F68C30471A7A2C4A004B62C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C30461A7A2C4A004B62C9 /* ViewController.m */; };
+		F68C304A1A7A2C4A004B62C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68C30481A7A2C4A004B62C9 /* Main.storyboard */; };
+		F68C304C1A7A2C4A004B62C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68C304B1A7A2C4A004B62C9 /* Images.xcassets */; };
+		F68C304F1A7A2C4A004B62C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68C304D1A7A2C4A004B62C9 /* LaunchScreen.xib */; };
+		F68C305B1A7A2C4A004B62C9 /* ToyRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C305A1A7A2C4A004B62C9 /* ToyRobotTests.m */; };
+		F68C30661A7A37B8004B62C9 /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C30651A7A37B8004B62C9 /* Position.m */; };
+		F68C30691A7A40E8004B62C9 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C30681A7A40E8004B62C9 /* Robot.m */; };
+		F6CDD7EC1A7A693300F779A9 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C30681A7A40E8004B62C9 /* Robot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F68C30551A7A2C4A004B62C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68C30331A7A2C4A004B62C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68C303A1A7A2C4A004B62C9;
+			remoteInfo = ToyRobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F68C303B1A7A2C4A004B62C9 /* ToyRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68C303F1A7A2C4A004B62C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68C30401A7A2C4A004B62C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F68C30421A7A2C4A004B62C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F68C30431A7A2C4A004B62C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F68C30451A7A2C4A004B62C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F68C30461A7A2C4A004B62C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F68C30491A7A2C4A004B62C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F68C304B1A7A2C4A004B62C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F68C304E1A7A2C4A004B62C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F68C30541A7A2C4A004B62C9 /* ToyRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68C30591A7A2C4A004B62C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68C305A1A7A2C4A004B62C9 /* ToyRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToyRobotTests.m; sourceTree = "<group>"; };
+		F68C30641A7A37B8004B62C9 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		F68C30651A7A37B8004B62C9 /* Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Position.m; sourceTree = "<group>"; };
+		F68C30671A7A40E8004B62C9 /* Robot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Robot.h; path = ../Robot.h; sourceTree = "<group>"; };
+		F68C30681A7A40E8004B62C9 /* Robot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Robot.m; path = ../Robot.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68C30381A7A2C4A004B62C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C30511A7A2C4A004B62C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F68C30321A7A2C4A004B62C9 = {
+			isa = PBXGroup;
+			children = (
+				F68C303D1A7A2C4A004B62C9 /* ToyRobot */,
+				F68C30571A7A2C4A004B62C9 /* ToyRobotTests */,
+				F68C303C1A7A2C4A004B62C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F68C303C1A7A2C4A004B62C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68C303B1A7A2C4A004B62C9 /* ToyRobot.app */,
+				F68C30541A7A2C4A004B62C9 /* ToyRobotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68C303D1A7A2C4A004B62C9 /* ToyRobot */ = {
+			isa = PBXGroup;
+			children = (
+				F68C306A1A7A40F9004B62C9 /* Model */,
+				F68C30421A7A2C4A004B62C9 /* AppDelegate.h */,
+				F68C30431A7A2C4A004B62C9 /* AppDelegate.m */,
+				F68C30451A7A2C4A004B62C9 /* ViewController.h */,
+				F68C30461A7A2C4A004B62C9 /* ViewController.m */,
+				F68C30481A7A2C4A004B62C9 /* Main.storyboard */,
+				F68C304B1A7A2C4A004B62C9 /* Images.xcassets */,
+				F68C304D1A7A2C4A004B62C9 /* LaunchScreen.xib */,
+				F68C303E1A7A2C4A004B62C9 /* Supporting Files */,
+			);
+			path = ToyRobot;
+			sourceTree = "<group>";
+		};
+		F68C303E1A7A2C4A004B62C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F68C303F1A7A2C4A004B62C9 /* Info.plist */,
+				F68C30401A7A2C4A004B62C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F68C30571A7A2C4A004B62C9 /* ToyRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				F68C305A1A7A2C4A004B62C9 /* ToyRobotTests.m */,
+				F68C30581A7A2C4A004B62C9 /* Supporting Files */,
+			);
+			path = ToyRobotTests;
+			sourceTree = "<group>";
+		};
+		F68C30581A7A2C4A004B62C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F68C30591A7A2C4A004B62C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F68C306A1A7A40F9004B62C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F68C30671A7A40E8004B62C9 /* Robot.h */,
+				F68C30681A7A40E8004B62C9 /* Robot.m */,
+				F68C30641A7A37B8004B62C9 /* Position.h */,
+				F68C30651A7A37B8004B62C9 /* Position.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68C303A1A7A2C4A004B62C9 /* ToyRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68C305E1A7A2C4A004B62C9 /* Build configuration list for PBXNativeTarget "ToyRobot" */;
+			buildPhases = (
+				F68C30371A7A2C4A004B62C9 /* Sources */,
+				F68C30381A7A2C4A004B62C9 /* Frameworks */,
+				F68C30391A7A2C4A004B62C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyRobot;
+			productName = ToyRobot;
+			productReference = F68C303B1A7A2C4A004B62C9 /* ToyRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F68C30531A7A2C4A004B62C9 /* ToyRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68C30611A7A2C4A004B62C9 /* Build configuration list for PBXNativeTarget "ToyRobotTests" */;
+			buildPhases = (
+				F68C30501A7A2C4A004B62C9 /* Sources */,
+				F68C30511A7A2C4A004B62C9 /* Frameworks */,
+				F68C30521A7A2C4A004B62C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68C30561A7A2C4A004B62C9 /* PBXTargetDependency */,
+			);
+			name = ToyRobotTests;
+			productName = ToyRobotTests;
+			productReference = F68C30541A7A2C4A004B62C9 /* ToyRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68C30331A7A2C4A004B62C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = geraldkim;
+				TargetAttributes = {
+					F68C303A1A7A2C4A004B62C9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F68C30531A7A2C4A004B62C9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F68C303A1A7A2C4A004B62C9;
+					};
+				};
+			};
+			buildConfigurationList = F68C30361A7A2C4A004B62C9 /* Build configuration list for PBXProject "ToyRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F68C30321A7A2C4A004B62C9;
+			productRefGroup = F68C303C1A7A2C4A004B62C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68C303A1A7A2C4A004B62C9 /* ToyRobot */,
+				F68C30531A7A2C4A004B62C9 /* ToyRobotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68C30391A7A2C4A004B62C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68C304A1A7A2C4A004B62C9 /* Main.storyboard in Resources */,
+				F68C304F1A7A2C4A004B62C9 /* LaunchScreen.xib in Resources */,
+				F68C304C1A7A2C4A004B62C9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C30521A7A2C4A004B62C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68C30371A7A2C4A004B62C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68C30471A7A2C4A004B62C9 /* ViewController.m in Sources */,
+				F68C30441A7A2C4A004B62C9 /* AppDelegate.m in Sources */,
+				F68C30661A7A37B8004B62C9 /* Position.m in Sources */,
+				F68C30411A7A2C4A004B62C9 /* main.m in Sources */,
+				F68C30691A7A40E8004B62C9 /* Robot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C30501A7A2C4A004B62C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CDD7EC1A7A693300F779A9 /* Robot.m in Sources */,
+				F68C305B1A7A2C4A004B62C9 /* ToyRobotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F68C30561A7A2C4A004B62C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68C303A1A7A2C4A004B62C9 /* ToyRobot */;
+			targetProxy = F68C30551A7A2C4A004B62C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F68C30481A7A2C4A004B62C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68C30491A7A2C4A004B62C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F68C304D1A7A2C4A004B62C9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68C304E1A7A2C4A004B62C9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F68C305C1A7A2C4A004B62C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F68C305D1A7A2C4A004B62C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F68C305F1A7A2C4A004B62C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToyRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F68C30601A7A2C4A004B62C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToyRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F68C30621A7A2C4A004B62C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToyRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyRobot.app/ToyRobot";
+			};
+			name = Debug;
+		};
+		F68C30631A7A2C4A004B62C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToyRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyRobot.app/ToyRobot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68C30361A7A2C4A004B62C9 /* Build configuration list for PBXProject "ToyRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68C305C1A7A2C4A004B62C9 /* Debug */,
+				F68C305D1A7A2C4A004B62C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68C305E1A7A2C4A004B62C9 /* Build configuration list for PBXNativeTarget "ToyRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68C305F1A7A2C4A004B62C9 /* Debug */,
+				F68C30601A7A2C4A004B62C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68C30611A7A2C4A004B62C9 /* Build configuration list for PBXNativeTarget "ToyRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68C30621A7A2C4A004B62C9 /* Debug */,
+				F68C30631A7A2C4A004B62C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68C30331A7A2C4A004B62C9 /* Project object */;
+}
